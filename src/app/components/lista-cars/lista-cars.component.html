@@ -1,0 +1,16 @@
+<ionic-list>
+  <ionic-item *ngFor="let car of cars">
+    <ion-card>
+    <img alt="Silhouette of mountains" src={{car.imgUrl}} />
+    <ion-card-header>
+      <ion-card-title>Modelo:{{car.nombre}}</ion-card-title>
+      <ion-card-subtitle>El año del vehiculo:{{car.year}}</ion-card-subtitle>
+      <ion-card-subtitle>Patente:{{car.patente}}</ion-card-subtitle>
+    </ion-card-header>
+
+  </ion-card>
+
+
+  </ionic-item>
+
+</ionic-list>
